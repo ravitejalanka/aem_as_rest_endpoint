@@ -1,4 +1,4 @@
-package com.tadigital.magento.core.util;
+package com.sample.aem.rest.endpoint;
 
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
@@ -18,7 +18,7 @@ public class Test {
     private static final String HOST = "localhost";
     private static final String COOKIE_NAME = "login-token";
     private static final String SET_COOKIE_NAME = "Set-Cookie";
-    private static final String path = "/content/ascentreference/glueguns.html";
+    private static final String path = "/content/sample.infinity.json";
 
     public static void main(String[] args) {
         String postCall = String.format("%s://%s:%s/j_security_check", PROTOCOL, HOST, PORT);
